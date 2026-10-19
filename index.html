@@ -1,0 +1,228 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gerson Lima | Portfólio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- PÁGINA INICIAL -->
+        <section id="inicio" class="pagina inicio">
+
+            <div class="foto-container">
+                <img
+                    src="imagens/minha-foto.png"
+                    alt="Foto de perfil de Gerson Lima"
+                    class="foto-perfil"
+                >
+            </div>
+
+            <h1>
+                Gerson <span class="destaque">Lima</span>
+            </h1>
+
+            <p class="subtitulo">
+                Desenvolvedor Front-end no Programa Trilhas
+            </p>
+
+            <nav class="menu-principal" aria-label="Navegação principal">
+                <button class="botao" data-pagina="sobre">
+                    Sobre mim
+                </button>
+
+                <button class="botao" data-pagina="projetos">
+                    Projetos
+                </button>
+
+                <button class="botao" data-pagina="certificados">
+                    Certificados
+                </button>
+            </nav>
+
+        </section>
+
+
+        <!-- PÁGINA SOBRE MIM -->
+        <section id="sobre" class="pagina" hidden>
+
+            <p class="etiqueta">QUEM SOU EU</p>
+
+            <h1>
+                Sobre <span class="destaque">mim</span>
+            </h1>
+
+            <div class="cartao">
+
+                <p>
+                    Olá! Sou Gerson Lima e tenho interesse em tecnologia,
+                    programação e desenvolvimento de soluções digitais.
+                </p>
+
+                <p>
+                    Atualmente, estou desenvolvendo meus conhecimentos em
+                    desenvolvimento Front-end por meio do Programa Trilhas.
+                </p>
+
+                <p>
+                    Meu objetivo é aprender continuamente, criar projetos
+                    e construir minha trajetória profissional na área de
+                    tecnologia.
+                </p>
+
+            </div>
+
+            <h2 class="titulo-menor">Tecnologias em aprendizado</h2>
+
+            <div class="lista-tecnologias">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Git</span>
+                <span>GitHub</span>
+            </div>
+
+            <button type="button" class="botao voltar" data-voltar>
+                ← Voltar ao início
+            </button>
+
+        </section>
+
+
+        <!-- PÁGINA PROJETOS -->
+        <section id="projetos" class="pagina" hidden>
+
+            <p class="etiqueta">MINHA PRÁTICA</p>
+
+            <h1>
+                Meus <span class="destaque">projetos</span>
+            </h1>
+
+            <p class="subtitulo">
+                Projetos desenvolvidos durante meus estudos.
+            </p>
+
+            <div class="grade-projetos">
+
+                <article class="cartao projeto">
+
+                    <span class="numero-projeto">01</span>
+
+                    <h2>Portfólio pessoal</h2>
+
+                    <p>
+                        Site criado para apresentar minha trajetória,
+                        meus conhecimentos e meus certificados.
+                    </p>
+
+                    <div class="lista-tecnologias">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                </article>
+
+                <article class="cartao projeto">
+
+                    <span class="numero-projeto">02</span>
+
+                    <h2>Projetos em JavaScript</h2>
+
+                    <p>
+                        Exercícios e aplicações desenvolvidos para praticar
+                        lógica de programação e interatividade.
+                    </p>
+
+                    <div class="lista-tecnologias">
+                        <span>JavaScript</span>
+                        <span>Lógica</span>
+                    </div>
+
+                </article>
+
+            </div>
+
+            <button type="button" class="botao voltar" data-voltar>
+                ← Voltar ao início
+            </button>
+
+        </section>
+
+
+        <!-- PÁGINA CERTIFICADOS -->
+        <section id="certificados" class="pagina" hidden>
+
+            <p class="etiqueta">FORMAÇÃO COMPLEMENTAR</p>
+
+            <h1>
+                Meus <span class="destaque">certificados</span>
+            </h1>
+
+            <p class="subtitulo">
+                Certificados dos cursos que concluí.
+            </p>
+
+            <div class="grade-certificados">
+
+                <!-- CERTIFICADO DE ORATÓRIA -->
+                <article class="certificado">
+
+                    <h2>Oratória de Alta Performance</h2>
+
+                    <img
+                        src="imagens/certificado-oratoria.jpg"
+                        alt="Certificado de Oratória de Alta Performance da Kultivi"
+                        class="imagem-certificado"
+                        loading="lazy"
+                    >
+
+                    <p class="instituicao">Kultivi · 2024</p>
+
+                </article>
+
+                <!-- CERTIFICADO DE ATENDIMENTO -->
+                <article class="certificado">
+
+                    <h2>Atendimento ao Público</h2>
+
+                    <img
+                        src="imagens/certificado-atendimento.jpg"
+                        alt="Certificado de Atendimento ao Público da Fundação Bradesco"
+                        class="imagem-certificado"
+                        loading="lazy"
+                    >
+
+                    <p class="instituicao">Fundação Bradesco · 2026</p>
+
+                </article>
+
+            </div>
+
+            <button type="button" class="botao voltar" data-voltar>
+                ← Voltar ao início
+            </button>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
